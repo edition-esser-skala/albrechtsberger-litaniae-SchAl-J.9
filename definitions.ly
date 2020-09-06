@@ -660,6 +660,7 @@ tocLabel = #(define-music-function
 
 
 tempoKyrie = \tempoMarkup "Grave"
+tempoPater = \tempoMarkup "Andante"
 
 
 \include "notes/clno1.ly"

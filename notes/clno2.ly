@@ -21,3 +21,53 @@ KyrieClarinoII = {
     r8 c g'8. g16 c4_\critnote r\fermata \bar "||" %16 finis
 	}
 }
+
+PaterClarinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoPater
+		R2.*44 %44
+		r4 e\fE g %45
+		c c r
+		R2.
+		d4 r r
+		d r r
+		R2. %50
+		r4 r r8 e,
+		e4 r r
+		R2.
+		r4 r d'
+		e8. d16 c4 r %55
+		c4. d8 c g
+		e4 r r
+		R2.
+		e4 r e8. e16
+		e4 r r %60
+		e r r8 e'
+		d4 r r
+		g, r d'
+		c r c,8. c16
+		c4 r r %65
+		g' r e8. e16
+		e4 r r
+		g r r
+		g r r
+		g r r %70
+		R2.*39 %109
+		d'4\fE r r %110
+		d r r
+		d r r
+		g, c8 e d g,
+		c4 r r
+		e, r r %115
+		e r e'8 d
+		c4 r r8 c,
+		c4 r r
+		R2.*5 %123
+		r4 f'~ f8 e
+		e d4 c8 d g, %125
+		c4 r8 e d4
+		c8 d16 e d8 c g8. g16
+		e4 r r\fermata \bar "||" %128 finis
+	}
+}
