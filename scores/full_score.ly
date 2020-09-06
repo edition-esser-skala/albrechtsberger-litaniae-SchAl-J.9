@@ -91,73 +91,109 @@
 	% 		\midi { \tempo 4 = 50 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "2"
+	% 		title = "P A T E R   D E   C O E L I S"
+	% 	}
+	% 	% \tocSection "2" "Pater de coelis"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\set StaffGroup.instrumentName = \markup \center-column { "clno" "1, 2" }
+	% 				\new Staff <<
+	% 					\partcombine \PaterClarinoI \PaterClarinoII
+	% 				>>
+	% 			>>
+	% 			\new Staff {
+	% 				\set Staff.instrumentName = "timp"
+	% 				\PaterTimpani
+	% 			}
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\PaterViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\PaterViolinoII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S"
+	% 					\new Voice = "Soprano" { \dynamicUp \PaterSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \PaterSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \PaterAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \PaterAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "T"
+	% 					\new Voice = "Tenore" { \dynamicUp \PaterTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \PaterTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "B"
+	% 					\new Voice = "Basso" { \dynamicUp \PaterBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \PaterBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\PaterOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \PaterBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 90 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "2"
-			title = "P A T E R   D E   C O E L I S"
+			number = "3"
+			title = "R O S A   M Y S T I C A"
 		}
-		% \tocSection "2" "Pater de coelis"
+		\paper {
+			system-system-spacing.basic-distance = #25
+			system-system-spacing.minimum-distance = #25
+			systems-per-page = #2
+			page-count = #6
+		}
+		% \tocSection "3" "Rosa mystica"
 		\score {
 			<<
-				\new StaffGroup <<
-					\set StaffGroup.instrumentName = \markup \center-column { "clno" "1, 2" }
-					\new Staff <<
-						\partcombine \PaterClarinoI \PaterClarinoII
-					>>
-				>>
 				\new Staff {
-					\set Staff.instrumentName = "timp"
-					\PaterTimpani
+					\set Staff.instrumentName = \markup \center-column { "vl[a]" "solo" }
+					\RosaViolinoI
 				}
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\set GrandStaff.instrumentName = "vl"
-						\new Staff {
-							\set Staff.instrumentName = "1"
-							\PaterViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "2"
-							\PaterViolinoII
-						}
-					>>
-				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "S"
-						\new Voice = "Soprano" { \dynamicUp \PaterSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \PaterSopranoLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \PaterAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \PaterAltoLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "T"
-						\new Voice = "Tenore" { \dynamicUp \PaterTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \PaterTenoreLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "B"
-						\new Voice = "Basso" { \dynamicUp \PaterBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \PaterBassoLyrics
-				>>
+				\new Staff {
+					\set Staff.instrumentName = "A"
+					\new Voice = "Alto" { \dynamicUp \RosaAltoNotes }
+				}
+				\new Lyrics \lyricsto Alto \RosaAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\PaterOrgano
+						\RosaOrgano
 					}
 				>>
-				\new FiguredBass { \PaterBassFigures }
+				\new FiguredBass { \RosaBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

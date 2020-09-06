@@ -141,6 +141,49 @@ PaterViolinoI = {
 	}
 }
 
+RosaViolinoI = {
+	\relative c' {
+		\clef alto
+		\key f \major \time 4/4 \tempoRosa
+		f4\fE c'16 b a g f4 c'16 a g f
+		\sbOn \tuplet 3/2 8 { d e f c f a } \sbOff \appoggiatura c,8 b4 a r8 a'16 f
+		g e c4 \tuplet 3/2 8 { a'16 g f } g e c8 \sbOn \tuplet 3/2 8 { c16 d e f g a }
+		\tuplet 3/2 8 { g a h c d e } \appoggiatura g, fis8 d'16 f, \tuplet 3/2 8 { e f g a h c } \sbOff d,8 h'
+		c,4 r8 c'~ c16 b a g \sbOn \tuplet 3/2 8 { f a b c a es } \sbOff %5
+		es8 d r d'~ d16 c b a \sbOn \tuplet 3/2 8 { g b c d b g } \sbOff
+		\appoggiatura f e8 c4 \tuplet 3/2 8 { c'16 b a } b8 c,4 \tuplet 3/2 8 { b'16 a g }
+		a8 c,4 \tuplet 3/2 8 { as'16 g f } e c f g g4\trillE
+		\sbOn \tuplet 3/2 8 { f16 g a b c d h c h b a g f g a b c d h c h b a g }
+		\tuplet 3/2 8 { a g f d' b d, } \sbOff f8 e\trillE f4 r %10
+		R1
+		f4 c'16 b a g \appoggiatura g8 f4 c'16 a g f
+		\sbOn \tuplet 3/2 8 { d e f c f a } \sbOff \appoggiatura c,8 b4 a r
+		R1*4 %17
+		r2 c4 g'16 f e d
+		c4 c'16 h a g \sbOn \tuplet 3/2 8 { a h c g c e } \sbOff \appoggiatura g,8 f4
+		e r16 g c b \tuplet 3/2 8 { a g f } f,8~ f16 a' d c %20
+		\tuplet 3/2 8 { h a g } g,8~ g16 d' g f \sbOn \tuplet 3/2 8 { e f g a h c } e,8 d\trill
+		\tuplet 3/2 8 { c16 d e f g a fis g fis f e d c d e f g a fis g fis f e d }
+		\tuplet 3/2 8 { e d c c' a f } e8 d\trill c4 r \sbOff
+		R1
+		r8 c'16 a \appoggiatura g16 fis8 d'16 f, \tuplet 3/2 8 { e f g } c,8 r4 %25
+		R1
+		r2 r4 r8 \tieDashed d~\pE
+		d c16 h c8 e~ e d16 cis d8 f~ \tieSolid
+		f e16 d e8 g f8.( g32 a) g8 f
+		f\trillE e \sbOn \tuplet 3/2 8 { a,16\fE cis d e f g } \sbOff g e f8 r4 %30
+		R1
+		r4 r8 a4\pE g16 f g8 f
+		f e \sbOn \tuplet 3/2 8 { c16\fE e f g a b } b g a8 r4 \sbOff
+		R1*5 %38
+		r8 c \sbOn \tuplet 3/2 8 { c16 a b c a es } es8\trill d \tuplet 3/2 8 { d'16 b c d d, f } \sbOff
+		f8\trill e c \tuplet 3/2 8 { c'16 b a } b8 c,4 \tuplet 3/2 8 { b'16 a g } %40
+		a8 c,4 \tuplet 3/2 8 { as'16 g f } e c f g g4\trillE
+		\tuplet 3/2 8 { f16 g a b c d h c h b a g f g a b c d h c h b a g }
+		\tuplet 3/2 8 { a g f d' b d, } f8 e\trillE f4 r\fermata \bar "||" %43 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
