@@ -9,7 +9,7 @@
 \paper {
 	#(set-paper-size "a4" 'landscape)
 	indent = 1\cm
-	% #(define (page-post-process layout pages) (ly:create-toc-file layout pages))
+	#(define (page-post-process layout pages) (ly:create-toc-file layout pages))
 }
 
 #(set-global-staff-size 15.87)
