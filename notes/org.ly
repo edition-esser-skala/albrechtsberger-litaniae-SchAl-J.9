@@ -408,6 +408,196 @@ RosaBassFigures = \figuremode {
 	r4 <4>8 <3> r2 %43 finis
 }
 
+SalusOrgano = {
+	\relative c {
+		\clef bass
+		\key d \minor \time 3/2 \tempoSalus
+		\mvTr d2\fE-\solo f r
+		r4 a e cis8 h a4 a'
+		f2 d r
+		r4 g d b8 a g4 g'
+		cis,2 e g %5
+		f g a
+		r4 d-\tutti a f8 e d4 d'
+		cis2 a, r
+		r4 a' e cis8 h a4 a'
+		f2 d, r %10
+		r4 c''! a es8 d c4 c'
+		b2 b, r
+		r4 b' g e8 d c4 b'
+		a2 a, r
+		r4 a' f c8 b a4 a' %15
+		b2 b, r
+		r4 h' f d8c h4 h'
+		c2 c, r
+		f a r
+		r4 c-\solo g e8 d c4 b' %20
+		a2 f, r
+		r4 b' f d8 c b4 b'
+		g2 g, r
+		r4 f' c a8 g f4 f'
+		c2 c' r %25
+		r4 f,-\tuttiE c a8 g f4 f'
+		e2 c r
+		r4 g' e b8 a g4 g'
+		f2 f, r
+		r4 h' f d8 c h4 h' %30
+		c2 c, r
+		r4 e c g8 f e4 e'
+		f2 f, r
+		r4 f' c a8 g f4 f'
+		e2 e, r %35
+		a c r
+		r4 e'-\soloE h gis8 fis e4 d'
+		c2 a, r
+		r4 d' a f8 e d4 d'
+		gis,2 h d, %40
+		c d e
+		r4 a-\tutti e c8 h a4 a'
+		g!2 g, r
+		r4 g' e cis8 h? a4 g'
+		f2 d r %45
+		r4 f d h8 a g4 f'
+		es2 c r
+		r4 b'! g e8 d c4 b'
+		a2 a, r
+		r4 as' es c8 b as4 as' %50
+		g2 g, r
+		r4 fis' a a,8 g fis4 fis'
+		g2 g, r
+		c es r
+		r4 g-\soloE d h8 a g4 g' %55
+		es2 c r
+		r4 f c as8 g f4 f'
+		h,2 d f \noBreak
+		es f g
+		\key c \major \tempoRegina c, r4 e\pE h g \noBreak %60
+		c c, \mvTr e'\fE-\tutti c h g
+		c c, r \mvTr c''\pE-\solo h g
+		a fis g \mvTr g,\fE-\tutti c' a
+		h g a d, g g,
+		r \mvTr h\pE-\solo c2 r4 c %65
+		d2 r4 fis8 g a4 fis
+		g e c d g,2
+		r4 \mvTr h\fE-\tutti c c, r c'
+		d d, r fis'8 g a4 fis
+		g e c d g, h %70
+		c8-\solo d e d c4 cis d d,
+		g2 r4 g'\pE fis d
+		g g \mvTr h\fE-\tutti g fis d
+		g2 r4 \mvTr e\pE-\soloE fis d
+		e a, d \mvTr fis\fE-\tuttiE g e %75
+		fis d e a, d2
+		r4 \mvTr fis,\pE-\solo g2 r4 g
+		a2 r4 cis8 d e4 cis
+		d fis a a, d2
+		r4 \mvTr fis\fE-\tutti g g, r g' %80
+		a a, r a' d h
+		g a d, d d d
+		h h h h e e
+		a, a a a d d
+		g, g' g,2 r4 h %85
+		c c, r e' f f,
+		r d' e e, r c'
+		d d, r h' c c'8 h
+		a g f e d4 c g' g,
+		c2 r4 e f g \bar "|" %90 finis
+	}
+}
+
+SalusBassFigures = \figuremode {
+	r2 <6>1
+	r4 <_+> r1
+	<6>1.
+	r
+	<7>2 <\t>1 %5
+	<6>2 <[6]> <_+>
+	r1.
+	<6>2 <[_+]>1
+	r4 <[7] _+> r1
+	<6>1. %10
+	r4 <4+ _-> r1
+	<6>1.
+	r4 <4! 2> r1
+	<6>1.
+	r4 <6 5-> r1 %15
+	r1.
+	r4 <7-> r1
+	<5 4>2 <\t \t> <\t _!>2
+	r <[6]>1
+	r1. %20
+	<6>
+	r
+	<6>
+	r
+	<6 4>2 <\t \t> <5 3> %25
+	r1.
+	<6>
+	r4 <6> r1
+	r1.
+	r4 <7-> r1 %30
+	<[6- 4]>2 <5 3>1
+	r4 <[6] 5> r1
+	<9 4>2 <8 3>1
+	r4 <6\\> r1
+	<6 4>2 <\t \t> <5! _+> %35
+	r <[6]>1
+	r4 <[5!] _+> r1
+	<6>1.
+	r
+	\bo <7 [_!]>2 \bc <\t [\t]> <[6!] 4+ [3]> %40
+	<6> <6!> <[5!] _+>
+	r1.
+	<4+ _->
+	r4 <4+ 2> r1
+	<6>1. %45
+	r4 <4! 2> r1
+	<6>2 <[_-]>1
+	r4 <4! 2> r1
+	<6>1.
+	r4 <6\\ [5-]> r1 %50
+	<5 4>2 <\t _!>1
+	r4 <7-> r1
+	<6- 4>2 <\t \t> <5 _!>
+	<_-> <[6]>1
+	r4 <_!> r1 %55
+	<6>2 <[_-]>1
+	r4 <_-> r1
+	<7->2 <\t> <4!>
+	<6> <6 [_-]> <_!>
+	<_!>1 \bo <[6]>4 \bc <[7]> %60
+	r2 \bo <[6]> <6>4 \bc <[7]>
+	r1 <[6]>2
+	<3>4 <\t> r1
+	<[7]>2 <7>4 <7 [_+]> <3>2
+	r4 \bo <[6]> r2. \bc q4 %65
+	<_+>2. \bo <[6]>4 <6\\> \bc <[6]>
+	r2 \bo <[6 5]>4 \bc <[_+ \l]> r2
+	r4 \bo <[6]> r2. \bc q4
+	<_+>2. \bo <[6]>4 <6\\> \bc <[6]>
+	r2 <[6 5]>4 <_+> r <[6]> %70
+	r2 \bo <[6]>4 \bc <[\t]> <4> <_+>
+	r1 \bo <[6 \l]>4 \bc <[7 _+]>
+	r2 \bo <[6 \l]> <6>4 \bc <[7 _+]>
+	r1 <[6]>4 <_+>
+	<7> <7 _+> \bo <[_+]> <6>2 \bc <[7]>4 %75
+	<[6]>2 <7>4 <7 _+> <_+>2
+	r4 \bo <[6]>1 \bc q4
+	<_+>2. \bo <[6]>4 <6\\> \bc <[6]>
+	r <[6]> <4> <_+> <_+>2
+	r4 \bo <[6]> r2. \bc q4 %80
+	<_+>2. <[_+]>4 <_+> <[5+]>
+	<6 5> <_+> q1
+	<6\\> <7 _+>2
+	\bo <[9 4]>2 \bc <[8 _!]> <7 _+>
+	<9 4> <8 3> r4 <6>8 <5!> %85
+	r2. <6>8 <[5]> r2
+	r4 <6>8 <5> r2. <6>8 <5>
+	r2. <6>8 <[5]> r2
+	\bo <[5 3]>4. \bassFigureExtendersOn \bc q8 \bassFigureExtendersOff <6>2 <4>4 <3>
+	r2. <6>4 <[6]> <3> %90 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -160,40 +160,109 @@
 	% 		\midi { \tempo 4 = 90 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "3"
+	% 		title = "R O S A   M Y S T I C A"
+	% 	}
+	% 	\paper {
+	% 		system-system-spacing.basic-distance = #25
+	% 		system-system-spacing.minimum-distance = #25
+	% 		systems-per-page = #2
+	% 		page-count = #6
+	% 	}
+	% 	% \tocSection "3" "Rosa mystica"
+	% 	\score {
+	% 		<<
+	% 			\new Staff {
+	% 				\set Staff.instrumentName = \markup \center-column { "vl[a]" "solo" }
+	% 				\RosaViolinoI
+	% 			}
+	% 			\new Staff {
+	% 				\set Staff.instrumentName = "A"
+	% 				\new Voice = "Alto" { \dynamicUp \RosaAltoNotes }
+	% 			}
+	% 			\new Lyrics \lyricsto Alto \RosaAltoLyrics
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\RosaOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \RosaBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 60 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "3"
-			title = "R O S A   M Y S T I C A"
+			number = "4"
+			title = "S A L U S   I N F I R M O R U M"
 		}
-		\paper {
-			system-system-spacing.basic-distance = #25
-			system-system-spacing.minimum-distance = #25
-			systems-per-page = #2
-			page-count = #6
-		}
-		% \tocSection "3" "Rosa mystica"
+		% \tocSection "4" "Salus infirmorum"
 		\score {
 			<<
+				\new StaffGroup <<
+					\set StaffGroup.instrumentName = \markup \center-column { "clno" "1, 2" }
+					\new Staff <<
+						\partcombine \SalusClarinoI \SalusClarinoII
+					>>
+				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup \center-column { "vl[a]" "solo" }
-					\RosaViolinoI
+					\set Staff.instrumentName = "timp"
+					\SalusTimpani
 				}
-				\new Staff {
-					\set Staff.instrumentName = "A"
-					\new Voice = "Alto" { \dynamicUp \RosaAltoNotes }
-				}
-				\new Lyrics \lyricsto Alto \RosaAltoLyrics
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\set GrandStaff.instrumentName = "vl"
+						\new Staff {
+							\set Staff.instrumentName = "1"
+							\SalusViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "2"
+							\SalusViolinoII
+						}
+					>>
+				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "S"
+						\new Voice = "Soprano" { \dynamicUp \SalusSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \SalusSopranoLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "A"
+						\new Voice = "Alto" { \dynamicUp \SalusAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \SalusAltoLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "T"
+						\new Voice = "Tenore" { \dynamicUp \SalusTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \SalusTenoreLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "B"
+						\new Voice = "Basso" { \dynamicUp \SalusBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \SalusBassoLyrics
+				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\RosaOrgano
+						\SalusOrgano
 					}
 				>>
-				\new FiguredBass { \RosaBassFigures }
+				\new FiguredBass { \SalusBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 2 = 80 }
 		}
 	}
 }

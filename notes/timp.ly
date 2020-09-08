@@ -61,3 +61,27 @@ PaterTimpani = {
 		c4 r r\fermata \bar "||" %128 finis
 	}
 }
+
+SalusTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/2 \tempoSalus
+		R1.*59 %59
+		\tempoRegina R1. %60
+		r4-\critnote c2\fE c4 g g
+		c2 r r
+		R1.*5 %67
+		r4 g c2 r
+		R1.
+		g2 r g %70
+		R1.
+		g2 r r
+		R1.*12 %84
+		r2 r g %85
+		c r r
+		R1.
+		r2 g c
+		r r4 c g2
+		c r4 c g2 \bar "|"
+	}
+}

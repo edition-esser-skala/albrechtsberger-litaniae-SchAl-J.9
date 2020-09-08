@@ -204,6 +204,155 @@ PaterBassoLyrics = \lyricmode {
 	bis. %126 finis
 }
 
+SalusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \minor \time 3/2 \autoBeamOff \tempoSalus
+		R1.*6 %6
+		\mvTr d1\fE^\tutti d2
+		cis a r
+		cis1 cis2
+		d d r %10
+		c!1.
+		b2. b4 b2
+		b1 b2
+		a a r
+		a1 a2 %15
+		b b r
+		h h h
+		c1.
+		f1 r2
+		R1.*6 %25
+		f1 f2
+		e c r
+		g'1 g2
+		f f r
+		h,1 h2 %30
+		c c r
+		e1 e2
+		f f r
+		f f f
+		e1. %35
+		a,1 r2
+		R1.*5 %41
+		a'1.
+		g!2. g4 g2
+		g g g
+		f d r %45
+		f f f
+		es c r
+		b! b b
+		a a r
+		as as as %50
+		g g r
+		fis fis fis'
+		g1( g,2)
+		c1 r2
+		R1.*5 %59
+		\key c \major \tempoRegina R1. %60
+		r4 c e c h g8 g
+		c4 c r2 r
+		r r4 g' c a
+		h g a( d,) g2
+		R1.*3 %67
+		r4 h, c2 r4 c
+		d2 r4 fis8([ g)] a4 fis
+		g e c( d) g,2 %70
+		R1.
+		r4 \mvTr d'\pE^\solo d d8 d d4 c'
+		h8([ a)] g2 r4 r2
+		r4 d h' a8([ g)] a4 g8([ fis)]
+		g2\trill fis r %75
+		r r r4 a8([ g]
+		fis[ e d c!)] h4 h'8([ a] g[ fis e d])
+		cis4 a8([ h] cis[ d e fis)] g4 fis8([ e)]
+		fis4 d' a,2 d
+		r4 \mvTr fis\fE^\tutti g2 r4 g %80
+		a2 r4 a d h
+		g( a) d,2 d
+		h h4 h e e
+		a,4. a8 a4 a d d
+		g,4. g8 g2 r4 h %85
+		c2 r4 e f2
+		r4 d e2 r4 c
+		d2 r4 h c c'8([ h]
+		a[ g f e)] d4 c g'2
+		c, r r \bar "|" %90 finis
+	}
+}
+
+SalusBassoLyrics = \lyricmode {
+	Sa -- lus, %7
+	sa -- lus
+	in -- fir --
+	mo -- rum, %10
+	re --
+	fu -- gi -- um
+	pec -- ca --
+	to -- rum,
+	o -- ra, %15
+	o -- ra,
+	o -- ra pro
+	no --
+	bis.
+
+	Con -- so -- %26
+	la -- trix
+	af -- fli --
+	cto -- rum,
+	af -- fli -- %30
+	cto -- rum,
+	o -- ra,
+	o -- ra,
+	o -- ra pro
+	no -- %35
+	bis.
+
+	Au -- %42
+	xi -- li -- um
+	Chri -- sti -- a --
+	no -- rum, %45
+	Chri -- sti -- a --
+	no -- rum,
+	o -- ra pro
+	no -- bis,
+	o -- ra pro %50
+	no -- bis,
+	o -- ra pro
+	no --
+	bis.
+
+	Re -- gi -- na Pa -- tri -- ar -- %61
+	cha -- rum,
+	o -- ra, o --
+	ra pro no -- bis,
+
+	o -- %67
+	ra, o --
+	ra, o -- ra, o --
+	ra pro no -- bis. %70
+
+	Re -- gi -- na A -- po -- sto --
+	lo -- rum,
+	o -- ra, o -- ra pro
+	no -- bis, %75
+	o --
+	ra, o --
+	ra, o -- ra, o --
+	ra pro no -- bis,
+	o -- ra, o -- %80
+	ra, o -- ra pro
+	no -- bis. Re --
+	gi -- na, re -- gi -- na
+	Vir -- gi -- num, San -- cto -- rum
+	o -- mni -- um, o -- %85
+	ra, o -- ra,
+	o -- ra, o --
+	ra, o -- ra, o --
+	ra pro no --
+	bis. %90 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

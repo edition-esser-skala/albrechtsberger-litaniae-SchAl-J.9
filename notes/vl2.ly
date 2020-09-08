@@ -140,3 +140,98 @@ PaterViolinoII = {
 		c,2 r4\fermata \bar "||" %128 finis
 	}
 }
+
+SalusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 3/2 \tempoSalus
+		r2 d\fE f
+		r4 a, cis e a cis,
+		d2 f fis
+		g4 g, b d g d
+		e2 cis e %5
+		f4 a, b2 a
+		a-\critnote d' r
+		r4 a, cis e a cis,
+		e2 a, r
+		r4 a d f a d %10
+		fis,2 es' r
+		r4 g, b d g b,
+		c2 e,! r
+		r4 f a c f a,
+		c2 c, r %15
+		r4 b d f b d,
+		as'2 d, r
+		r4 f c' c, e b'!
+		a2 f a
+		r4 c, e g c e, %20
+		f2 a a,
+		r4 b d f b d,
+		e!2 g e
+		r4 f a c f a,
+		c2 a b4 g %25
+		a2 a, r
+		r4 g e' g c e
+		e,2 b' r
+		r4 f a c f a,
+		h2 d r %30
+		r4 c, e g c e,
+		g2 e' r
+		r4 b, a c f c
+		a'2 a, r
+		r4 a c e h d %35
+		c2 a c
+		r4 e gis h e gis,
+		a2 c cis
+		r4 d, f a d a
+		h2 gis h %40
+		c4 c, f2 e
+		e c' r
+		r4 cis, e g b! g
+		e2 cis' r
+		r4 d, f a d f %45
+		g,2 h r
+		r4 c, es g c c,
+		g'2 b! r
+		r4 f a c f a,
+		c2 c, r %50
+		r4 c h d g h
+		c2 c, r
+		r4 es g c f, d
+		es2 c' r
+		r4 g, h d g h, %55
+		c2 es e
+		f4 c as c f c
+		d2 h d \noBreak
+		es4 g, as2 g
+		\key c \major \tempoRegina g2 r r \noBreak %60
+		r4 g'8 g c c e e d d h h
+		c d e4 r2 r
+		r r4 h8 h g g a a
+		d, d g g g g fis fis g2
+		R1.*2 %66
+		r2 r r4 h8 a
+		g f! e d c4 c'8 h a g fis e
+		d4 fis8 g a2 fis
+		d4 g2 fis4 g g'8 fis %70
+		e d c h a g fis g a,4 fis'
+		g,2 r r
+		r4 h' d d d, c'
+		h8 a g4 r2 r
+		r r4 d' h g %75
+		a fis' g, e' fis,2
+		R1.*2
+		r2 r r4 a8 g
+		fis e d c! h4 h'8 a g fis e d %80
+		cis4 cis'8 h a g fis e d4 fis
+		g e fis d8( fis) fis( a) a( d)
+		d( d,) d'( h) h( gis) gis( e) e( d') d( h)
+		h( gis) gis( a) a4 c!8( a) a( fis) fis( a)
+		a( c) c( h) h4 d8 c h a g f %85
+		e2 r4 c' c, a'
+		r h h, g' r a
+		a, f' r d e c
+		c' c h c g f'
+		e8 d c h a g f e d4 h' \bar "|" %90 finis
+	}
+}

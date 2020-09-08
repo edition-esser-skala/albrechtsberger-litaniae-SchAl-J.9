@@ -153,6 +153,153 @@ PaterTenoreLyrics = \lyricmode {
 	bis. %126 finis
 }
 
+SalusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \minor \time 3/2 \autoBeamOff \tempoSalus
+		R1.*6 %6
+		\mvTr a1\fE^\tutti a2
+		a a r
+		a1 a2
+		a a r %10
+		a1.
+		b2. b4 b2
+		g1 g2
+		a c r
+		es1 es2 %15
+		d b r
+		d d d
+		c1.
+		c1 r2
+		R1.*6 %25
+		a1 a2
+		g g r
+		g( c) c
+		c c r
+		d1 d2 %30
+		c c r
+		b1 b2
+		b a r
+		a a a
+		a1( gis2) %35
+		a1 r2
+		R1.*5 %41
+		e'1.
+		cis2. cis4 cis2
+		cis cis cis
+		d d r %45
+		h h h
+		c c r
+		g g g
+		a a r
+		c c c %50
+		d d r
+		a a a
+		g1.
+		g1 r2
+		R1.*5 %59
+		\key c \major \tempoRegina r4 \mvTr g\pE^\solo g g g f' %60
+		e8([ d)] c4 r2 r
+		r4 g e' d8([ c)] d4 c8([ h)]
+		c2\trill h r
+		r r r4 d8([ c]
+		h[ a g f!)] e4 e'8([ d] c[ h a g]) %65
+		fis4 d8([ e] fis[ g a h]) c4 h8([ a)]
+		h4 a8([ g)] a2\trill g
+		r4 \mvTr g\fE^\tutti g2 r4 a
+		a2 r4 a a d
+		d e e( d) d2 %70
+		R1.*2
+		r4 h d h a fis
+		g2 r r
+		r r4^\critnote a g a8([ h)] %75
+		a4 h8([ a)] g4( a) a2
+		R1.*3
+		r4 a g2 r4 h %80
+		a2 r4 cis d d
+		h( a) a2 a
+		h h4 h h h
+		h4. a8 a4 a a a
+		a4. g8 g2 r4 g %85
+		g2 r4 c c2
+		r4 d h2 r4 c
+		a2 r4 h g g
+		c c d c2 h4
+		c2 r r \bar "|" %90
+	}
+}
+
+SalusTenoreLyrics = \lyricmode {
+	Sa -- lus, %7
+	sa -- lus
+	in -- fir --
+	mo -- rum, %10
+	re --
+	fu -- gi -- um
+	pec -- ca --
+	to -- rum,
+	o -- ra, %15
+	o -- ra,
+	o -- ra pro
+	no --
+	bis.
+
+	Con -- so -- %26
+	la -- trix
+	af -- fli --
+	cto -- rum,
+	af -- fli -- %30
+	cto -- rum,
+	o -- ra,
+	o -- ra,
+	o -- ra pro
+	no -- %35
+	bis.
+
+	Au -- %42
+	xi -- li -- um
+	Chri -- sti -- a --
+	no -- rum, %45
+	Chri -- sti -- a --
+	no -- rum,
+	o -- ra pro
+	no -- bis,
+	o -- ra pro %50
+	no -- bis,
+	o -- ra pro
+	no --
+	bis.
+
+	Re -- gi -- na An -- ge -- %60
+	lo -- rum,
+	o -- ra, o -- ra pro
+	no -- bis,
+	o --
+	ra, o -- %65
+	ra, o -- ra, o --
+	ra pro no -- bis,
+	o -- ra, o --
+	ra, o -- ra, o --
+	ra pro no -- bis. %70
+
+	Re -- gi -- na Mar -- ty -- %73
+	rum,
+	o -- ra, o -- %75
+	ra pro no -- bis,
+
+	o -- ra, o -- %80
+	ra, o -- ra pro
+	no -- bis. Re --
+	gi -- na, re -- gi -- na
+	Vir -- gi -- num, San -- cto -- rum
+	o -- mni -- um, o -- %85
+	ra, o -- ra,
+	o -- ra, o --
+	ra, o -- ra, o --
+	ra, o -- ra pro no --
+	bis. %90 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

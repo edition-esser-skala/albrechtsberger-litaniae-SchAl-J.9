@@ -184,6 +184,100 @@ RosaViolinoI = {
 	}
 }
 
+SalusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 3/2 \tempoSalus
+		r4 d'\fE a f8 e d4 d'
+		cis2 a, r
+		r4 d' a f8 e d4 c'
+		b2 g, r
+		r4 b'' g e8 d cis4 b' %5
+		a d, e,2 cis'
+		d, f' r
+		r4 a e cis8 h a4 a'
+		g2 cis,, r
+		r4 a'' f a,8 g f4 f' %10
+		es2 c,! r
+		r4 g'' d b8 a g4 g'
+		e!2 c, r
+		r4 f' c a8 g f4 f'
+		es2 a,, r %15
+		r4 d' b f8 es d4 d'
+		f2 h,, r
+		r4 f'' c b!8 a g4 e'
+		r f c a8 g f4 f'
+		e2 c, r %20
+		r4 f' c a8 g f4 es'
+		d2 b, r
+		r4 b'' e,! b8 a g4 b'
+		a2 f, r
+		r4 f' c b8 a g4 e' %25
+		f2 f, r
+		r4 c'' g e8 d c4 c'
+		b2 g, r
+		r4 a' f c8 b a4 a'
+		f2 h, r %30
+		r4 as' g e8 d c4 c'
+		b2 b, r
+		r4 g' f c8 b a4 a'
+		dis,2 f, r
+		r4 e' c h8 a gis4 gis' %35
+		r a e c8 h a4 a'
+		gis2 e, r
+		r4 a' e c8 h a4 g'
+		f2 d, r
+		r4 f' d h8 a gis4 f' %40
+		e a, h,2 gis'
+		a, a' r
+		r4 b'! g e8 d cis4 b'
+		a2 a, r
+		r4 a' f a,8 g f4 d' %45
+		h2 g, r
+		r4 c' g es8 d c4 es'
+		e2 e, r
+		r4 f' c a8 g f4 f'
+		fis2 fis, r %50
+		r4 g' d h8 a g4 g'
+		es2 es, r
+		r4 c'' g es8 c d4 h'
+		r c, g es8 d c4 c'
+		h2 g, r %55
+		r4 c' g es8 d c4 b'
+		as2 f' r
+		r4 as f d8 c h4 as' \noBreak
+		g c, d,2 h'
+		\key c \major \tempoRegina c, r r \noBreak %60
+		r4 g' g g g f'
+		e8 d c4 r2 r
+		r r4 g e' d8 c
+		d4 c8 h c2 h
+		R1.*2 %66
+		r2 r r4 d8 c
+		h a g f! e4 e'8 d c h a g
+		fis4 d8 e fis g a h c4 h8 a
+		h4 a8 g a2 g4 g'8 fis %70
+		e d c h a g fis g a,4 fis'
+		g,2 r r
+		r4 d''8 d g g h h a a fis fis
+		g a h4 r2 r
+		r r4 fis8 fis d d e e %75
+		a, a d d d d cis cis d2
+		R1.*3
+		r4 d d, d'8 c h4 e %80
+		e, e'8 d cis h a g fis4 d'
+		e, cis' d,8( fis) fis( a) a( d) d( fis)
+		d( h) h( gis) gis( d) d( h) h( gis) gis( d'')
+		d( h) h( c!) c( a) a( fis) fis( d) d( c')
+		c( a) a( h) h4 d, d'8 c h d %85
+		g,4 g'8 f e d c h a4 f'8 e
+		d c h a g4 e'8 d c h a g
+		f4 d'8 c h a g f e4 e'
+		e e f e d h'
+		c8 h a g f e d c d,4 h' \bar "|" %90 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

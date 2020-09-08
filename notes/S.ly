@@ -221,6 +221,150 @@ PaterSopranoLyrics = \lyricmode {
 	bis. %126 finis
 }
 
+SalusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 3/2 \autoBeamOff \tempoSalus
+		R1.*6 %6
+		\mvTr d'1\fE^\tutti d2
+		a cis r
+		e1 e2
+		d f r %10
+		es1.
+		d2. d4 d2
+		c1 c2
+		c a r
+		c1 c2 %15
+		b d r
+		d f f
+		f1( e!2)
+		f1 r2
+		R1.*6 %25
+		c1 c2
+		c c r
+		e1 e2
+		f f r
+		f1 f2 %30
+		f e r
+		c1 c2
+		c c r
+		c c c
+		c1( h2) %35
+		a1 r2
+		R1.*5 %41
+		c1.
+		e2. e4 e2
+		e e e
+		f f r %45
+		d d d
+		es es r
+		c c c
+		c c r
+		c c c %50
+		c h r
+		c c c
+		c1( h2)
+		c1 r2
+		R1.*5 %59
+		\key c \major \tempoRegina R1. %60
+		r4 g g g8 g g4 f'
+		e8([ d)] c4 r2 r
+		r r4 g e' d8([ c)]
+		d4 c8([ h)] c2\trill h
+		R1.*2 %66
+		r2 r r4 d8([ c]
+		h[ a g f!)] e4 e'8([ d] c[ h a g)]
+		fis4 d8([ e] fis[ g a h)] c4 h8([ a)]
+		h4 a8([ g)] a2\trill g %70
+		R1.*2
+		r4 d' d d d4. d8
+		d2 r r
+		r r4 d d d %75
+		d d d( cis) d2
+		R1.*3
+		d2 d e %80
+		e4 e8([ d] cis[ h a g)] fis4 d'
+		d( cis) d2 d
+		d d4 d d d
+		d4. c!8 c4 c c c
+		c4. h8 h2 r4 d %85
+		c g'8([ f] e[ d c h)] a4 f'8([ e]
+		d[ c h a)] g4 e'8([ d] c[ h a g)]
+		f4 d'8([ c] h[ a g f)] e4 e'
+		e e f e d2
+		c r r \bar "|" %90
+	}
+}
+
+SalusSopranoLyrics = \lyricmode {
+	Sa -- lus, %7
+	sa -- lus
+	in -- fir --
+	mo -- rum, %10
+	re --
+	fu -- gi -- um
+	pec -- ca --
+	to -- rum,
+	o -- ra, %15
+	o -- ra,
+	o -- ra pro
+	no --
+	bis.
+
+	Con -- so -- %26
+	la -- trix
+	af -- fli --
+	cto -- rum,
+	af -- fli -- %30
+	cto -- rum,
+	o -- ra,
+	o -- ra,
+	o -- ra pro
+	no -- %35
+	bis.
+
+	Au -- %42
+	xi -- li -- um
+	Chri -- sti -- a --
+	no -- rum, %45
+	Chri -- sti -- a --
+	no -- rum,
+	o -- ra pro
+	no -- bis,
+	o -- ra pro %50
+	no -- bis,
+	o -- ra pro
+	no --
+	bis.
+
+	Re -- gi -- na Pa -- tri -- ar -- %61
+	cha -- rum,
+	o -- ra, o --
+	ra pro no -- bis,
+
+	o -- %67
+	ra, o --
+	ra, o -- ra, o --
+	ra pro no -- bis. %70
+
+	Re -- gi -- na Mar -- ty -- %73
+	rum,
+	o -- ra, o -- %75
+	ra pro no -- bis,
+
+	o -- ra, o -- %80
+	ra, o -- ra pro
+	no -- bis. Re --
+	gi -- na, re -- gi -- na
+	Vir -- gi -- num, San -- cto -- rum
+	o -- mni -- um, o -- %85
+	ra, o -- ra, o --
+	ra, o --
+	ra, o -- ra, o --
+	ra, o -- ra pro no --
+	bis. %90 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

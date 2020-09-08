@@ -71,3 +71,27 @@ PaterClarinoI = {
 		c r r\fermata \bar "||" %128 finis
 	}
 }
+
+SalusClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/2 \tempoSalus
+		R1.*59 %59
+		\tempoRegina R1. %60
+		r4 c'2\fE e4 d f
+		e2 r r
+		R1.*5 %67
+		r4 d e2 r
+		R1.
+		g2 r g %70
+		R1.
+		g2 r r
+		R1.*12 %84
+		r2 r d %85
+		e c c
+		r r g'
+		f f e
+		e f4 g g2
+		g r4 e d2 \bar "|" %90 finis
+	}
+}

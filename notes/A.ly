@@ -220,6 +220,152 @@ RosaAltoLyrics = \lyricmode {
 	bis. %39 finis
 }
 
+SalusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 3/2 \autoBeamOff \tempoSalus
+		R1.*6 %6
+		\mvTr f1\fE^\tutti f2
+		e e r
+		g1 g2
+		f d r %10
+		fis1.
+		g2. g4 g2
+		e!1 e2
+		f f r
+		f1 f2 %15
+		f f r
+		as as as
+		g1.\trill
+		f1 r2
+		R1.*6 %25
+		f1 f2
+		g e r
+		b'1 b2
+		a a r
+		as1 as2 %30
+		as g r
+		g1 g2
+		g f r
+		dis dis dis
+		e1. %35
+		e1 r2
+		R1.*5 %41
+		a1.
+		b!2. b4 b2
+		a a a
+		a a r %45
+		g g g
+		g g r
+		e! e e
+		f f r
+		fis fis fis %50
+		g g r
+		es es es
+		es1( d2)
+		c1 r2
+		R1.*5 %59
+		\key c \major \tempoRegina R1. %60
+		r4 e c e d d8 d
+		c([ d)] e4 r2 r
+		r r4 g g a
+		a g g( fis) g2
+		R1.*2 %66
+		r2 r r4 h8([ a]
+		g[ f! e d)] c4 c'8([ h] a[ g fis? e)]
+		d4 fis8([ g]) a2 fis
+		d4 g g( fis) g2 %70
+		R1.*2
+		r4 d d d d c'
+		h2 r r
+		r r4 d, h' a8([ g)] %75
+		a4 g8([ fis)] g2 fis
+		R1.*2
+		r2 r r4 a8([ g]
+		fis[ e d c!)] h4 h'8[( a] g[ fis e d)] %80
+		cis4 cis'8([ h] a[ g fis e)] d4 fis
+		e2 d fis
+		gis gis4 gis gis e
+		e4. e8 e4 a fis d
+		d4. d8 d4 d'8([ c] h[ a g f)] %85
+		e2 r4 g f2
+		r4 f e2 r4 e
+		d2 r4 d c c
+		a' a g g g2
+		g r r \bar "|" %90 finis
+	}
+}
+
+SalusAltoLyrics = \lyricmode {
+	Sa -- lus, %7
+	sa -- lus
+	in -- fir --
+	mo -- rum, %10
+	re --
+	fu -- gi -- um
+	pec -- ca --
+	to -- rum,
+	o -- ra, %15
+	o -- ra,
+	o -- ra pro
+	no --
+	bis.
+
+	Con -- so -- %26
+	la -- trix
+	af -- fli --
+	cto -- rum,
+	af -- fli -- %30
+	cto -- rum,
+	o -- ra,
+	o -- ra,
+	o -- ra pro
+	no -- %35
+	bis.
+
+	Au -- %42
+	xi -- li -- um
+	Chri -- sti -- a --
+	no -- rum, %45
+	Chri -- sti -- a --
+	no -- rum,
+	o -- ra pro
+	no -- bis,
+	o -- ra pro %50
+	no -- bis,
+	o -- ra pro
+	no --
+	bis.
+
+	Re -- gi -- na Pa -- tri -- ar -- %61
+	cha -- rum,
+	o -- ra, o --
+	ra pro no -- bis,
+
+	o -- %67
+	ra, o --
+	ra, o -- ra, o --
+	ra pro no -- bis. %70
+
+	Re -- gi -- na Mar -- ty -- %73
+	rum,
+	o -- ra, o -- %75
+	ra pro no -- bis,
+
+	o -- %79
+	ra, o -- %80
+	ra, o -- ra pro
+	no -- bis. Re --
+	gi -- na, re -- gi -- na
+	Vir -- gi -- num, San -- cto -- rum
+	o -- mni -- um, o -- %85
+	ra, o -- ra,
+	o -- ra, o --
+	ra, o -- ra, o --
+	ra, o -- ra pro no --
+	bis. %90 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
