@@ -366,13 +366,60 @@ SalusAltoLyrics = \lyricmode {
 	bis. %90 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% AltoLyrics = \lyricmode {
-%
-% }
+AgnusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoAgnus
+		\mvTr g'4\fE^\tuttiE g g g8 g
+		g4 f8 f f4 es8 d
+		d4 c r8 as'? a? a
+		g4 g r2
+		g4 g g g %5
+		ges4. ges8 f4 g
+		f4. f8 g4 r
+		r2 g4. g8
+		g4 g8 g ges4 ges8 ges
+		ges4 ges ges f %10
+		f2 f4 es
+		e2 d4 cis8 cis
+		d4. d8 d4 r
+		r2 d4. d8
+		d4 d8 d d4 d8 d %15
+		d4 c r d
+		d d r d8([ g)]
+		e([ c)] g'4 g( fis)
+		g r g8 f e d
+		c4 a' g8 g g4 %20
+		e r a4. a8
+		g4 g g2
+		e4 g8 g f4 g
+		g( f) e2\fermata \bar "|." %24 FINIS
+	}
+}
+
+AgnusAltoLyrics = \lyricmode {
+	A -- gnus De -- i, qui
+	tol -- lis, qui tol -- lis pec --
+	ca -- ta, pec -- ca -- ta
+	mun -- di:
+	Par -- ce no -- bis, %5
+	par -- ce no -- bis,
+	Do -- mi -- ne.
+	A -- gnus
+	De -- i, qui tol -- lis pec --
+	ca -- ta mun -- di: %10
+	Ex -- au -- di,
+	ex -- au -- di nos,
+	Do -- mi -- ne.
+	A -- gnus
+	De -- i, qui tol -- lis pec -- %15
+	ca -- ta, pec --
+	ca -- ta, pec --
+	ca -- ta mun --
+	di: Mi -- se -- re -- re,
+	mi -- se -- re -- re no -- %20
+	bis, mi -- se --
+	re -- re no --
+	bis, mi -- se -- re -- re
+	no -- bis. %24 FINIS
+}

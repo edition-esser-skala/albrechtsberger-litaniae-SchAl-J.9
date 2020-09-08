@@ -85,3 +85,21 @@ SalusTimpani = {
 		c r4 c g2 \bar "|"
 	}
 }
+
+AgnusTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoAgnus
+		c4\fE r r2
+		R1*2
+		g4 g r2
+		R1*12 %16
+		g4 g r g
+		c g r2
+		g4 r r2
+		R1*2 %21
+		g4 c g g8. g16
+		c4 r r c8. c16
+		c4 c8. c16 c2\fermata \bar "|." %24 FINIS
+	}
+}

@@ -300,13 +300,60 @@ SalusTenoreLyrics = \lyricmode {
 	bis. %90 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-%
-% 	}
-% }
-%
-% TenoreLyrics = \lyricmode {
-%
-% }
+AgnusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoAgnus
+		\mvTr e4.\fE^\tuttiE e8 c4 c8 c
+		c4 c8 c d4 g,8 g
+		g4 g r8 c c c
+		c4 h r2
+		d4 d d c %5
+		c4. c8 b4 b
+		b4. b8 b4 r
+		r2 b4. b8
+		b4 b8 b a!4 a8 a
+		c4 c b b %10
+		as2 as4 g!
+		g2 g4 g8 g
+		g4 fis g r
+		r2 g4. g8
+		gis4 gis8 gis gis4 gis8 gis %15
+		a4 a r c
+		c h r g
+		g g e'( c)
+		d r r c8 h
+		a g f e g c c([ h)] %20
+		c4 r c4. c8
+		h4 c c( h)
+		c c8 c c4 c
+		c2 c\fermata \bar "|." %24 FINIS
+	}
+}
+
+AgnusTenoreLyrics = \lyricmode {
+	A -- gnus De -- i, qui
+	tol -- lis, qui tol -- lis pec --
+	ca -- ta, pec -- ca -- ta
+	mun -- di:
+	Par -- ce no -- bis, %5
+	par -- ce no -- bis,
+	Do -- mi -- ne.
+	A -- gnus
+	De -- i, qui tol -- lis pec --
+	ca -- ta mun -- di: %10
+	Ex -- au -- di,
+	ex -- au -- di nos,
+	Do -- mi -- ne.
+	A -- gnus
+	De -- i, qui tol -- lis pec -- %15
+	ca -- ta, pec --
+	ca -- ta, pec --
+	ca -- ta mun --
+	di: Mi -- se --
+	re -- re, mi -- se -- re -- re no -- %20
+	bis, mi -- se --
+	re -- re no --
+	bis, mi -- se -- re -- re
+	no -- bis. %24 FINIS
+}

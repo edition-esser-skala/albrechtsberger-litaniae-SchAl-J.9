@@ -598,13 +598,60 @@ SalusBassFigures = \figuremode {
 	r2. <6>4 <[6]> <3> %90 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassFigures = \figuremode {
-%
-% }
+AgnusOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoAgnus
+		\mvTr c8\fE-\tuttiE c c c e e e e
+		f f f f h,! h h h
+		c c c c as as fis fis
+		g2 r
+		h8 h h h c c c c %5
+		a! a a a b b b b
+		b b b b es4 r
+		r \mvTr b'8\pE-\soloE b, \mvTr es\fE-\tutti es es es
+		des des des des c c c c
+		a! a a a b b b b %10
+		d d d d es es es es
+		cis cis cis cis d d es es
+		d d d d g,4 r
+		r \mvTr d'8\pE-\solo d, \mvTr g\fE-\tutti g' g g
+		f! f f f e e e e %15
+		a a a,4 r d
+		g8 g g,4 r h8 h
+		c c h h a a a a
+		g1~-\tasto
+		g %20
+		a4 r fis'4. fis8
+		g4 c, g' g,
+		c e f e
+		f2 c\fermata \bar "|." %24 FINIS
+	}
+}
+
+AgnusBassFigures = \figuremode {
+	r2 <[6] 5->
+	\bo <[9]>4 \bc <[8]> <7- [5]> \bo <[6 4-]>8 \bc <[5 3]>
+	<9 _->4 <8 \t> <5-> <7- [_!]>
+	<6- 4> <5 _!>2.
+	<6 5>2 <9 4>4 <8 _-> %5
+	<7- [5-]>2 <5 3>4 <6! 4->
+	<5 4-> <7- 3> <[5-]>2
+	r4 \bo <[6] 4->8 <5 3> \bc <[5-]>2
+	<[6- 4] 2->2 <6! 5- _->
+	<7- 5- 3> <6- 4->4 <5 3> %10
+	<6- 5->2 <9 4->4 <8 _!>
+	<7- [_!]>2 <6- 4>4 <6\\ [5-] 3>
+	<6- 4> <5 _+> <_->2
+	r4 <6- 4>8 <5 _+> <_->2
+	<4! 2+>2 <7 _+> %15
+	<9 4>4 <8 3> r <7 _+>
+	<9 4> <8 _!> r <6>
+	r4 <[6]> <7> <6\\>
+	r1
+	r %20
+	<5>2 <6 5>
+	r2 <4>4 <3>
+	r <[6]>8 <5-> r4 <[6] 5->
+	<9> <8>2. %24 FINIS
+}

@@ -278,9 +278,33 @@ SalusViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
+AgnusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoAgnus
+		c8\fE g'' g g g g g g
+		a a a a as as g f
+		es es es es c' c c es,
+		es es d16 g-\parenthesize-!\pp fis( g) cis,( d) ais( h) fis( g) cis,( d)
+		f8\f f' g f f f es es %5
+		ges ges ges ges f f g g
+		f f as as g16 b-\parenthesize-!\pp a( b) fis( g) d( es)
+		a,!( b) fis( g) es8 d es\f g' g g
+		g g g g a! a a a
+		c c c c b b b b %10
+		as as as as as as g g
+		g g g g g g g g
+		g g fis fis g16 g-!\pp fis( g) cis,( d) a( b)
+		fis( g) cis,( d) b8 a g8\f d'' d d
+		d d d d d d d d %15
+		d d c c gis'16(\p a) dis,( e) c\f a a' c,
+		c8 c h h fis'16(\p g) cis,( d) h\f d h g
+		e'8 e g g g g fis fis
+		g16 g, h c d d, c' d, h'8 a g h
+		c4 d8 e f e d h' %20
+		c c, r4 a'8 a a a
+		g g g g g g g g
+		e e g g f f g g
+		g c, f f e2\fermata \bar "|." %24 FINIS
+	}
+}

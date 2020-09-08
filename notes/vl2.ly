@@ -235,3 +235,34 @@ SalusViolinoII = {
 		e8 d c h a g f e d4 h' \bar "|" %90 finis
 	}
 }
+
+AgnusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoAgnus
+		c8\fE e' e e e e g
+		g g g f f f f es d
+		d d c c es es es c
+		c c h16 g'-!\pp fis( g) cis,( d) ais( h) fis( g) cis,( d)
+		f8\f d' d d d d c c %5
+		es es c c d d es es
+		es es d d es16 b'-!\pp a!( b) fis( g) d( es)
+		a,!( b) a,( b) g'8 f\trill es\f es' es es
+		es es es es ges ges ges ges
+		ges es es es es es d d %10
+		f f b, b b b b b
+		b b b b b b b b
+		b b a a g16 g'-!\pp fis( g) cis,( d) a( b)
+		fis( g) cis,( d) b8 a g\f b' b b
+		h h h h h h h h %15
+		h h a a gis'16(\p a) dis,( e) c8\f a
+		a a g g fis'16(\p g) cis,( d) h8\f g
+		g g d' d c c c c
+		h d16 c h8 a g16 g, f' g, e'8 d
+		c e f e16 f g8 g g4 %20
+		e r d8 d' d, c'
+		h h c c c c h h
+		c c g g a a b b
+		a a a a g2\fermata \bar "|." %24 FINIS
+	}
+}

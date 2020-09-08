@@ -365,13 +365,60 @@ SalusSopranoLyrics = \lyricmode {
 	bis. %90 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% SopranoLyrics = \lyricmode {
-%
-% }
+AgnusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoAgnus
+		\mvTr c'4.\fE^\tuttiE c8 b4 b8 b
+		a4 a8 a as4 g8 f
+		es4 es' es2~
+		es4 d r2
+		f4 g8([ f)] f4 es %5
+		es4. c8 d4 es
+		es d es r
+		r2 es4. es8
+		es4 es8 es es4 es8 es
+		es4 es es d %10
+		r b b b
+		b2 b4 b8 b
+		b4 a\trill g r
+		r2 b4. b8
+		h4 h8 h h4 h8 h %15
+		h4 a r a
+		a g r d'
+		e d c2
+		h4 d8 c h a g h
+		c4 f f8([ e] d4) %20
+		c r d4. d8
+		d4 e d2
+		c4 c8 b a4 b
+		a2 g\fermata \bar "|." %24 FINIS
+	}
+}
+
+AgnusSopranoLyrics = \lyricmode {
+	A -- gnus De -- i, qui
+	tol -- lis, \xE qui tol -- lis pec --
+	ca -- ta \x mun --
+	di:
+	Par -- ce no -- bis, %5
+	par -- ce no -- bis,
+	Do -- mi -- ne.
+	A -- gnus
+	De -- i, qui tol -- lis pec --
+	ca -- ta mun -- di: %10
+	Ex -- au -- di,
+	ex -- au -- di nos,
+	Do -- mi -- ne.
+	A -- gnus
+	De -- i, qui tol -- lis pec -- %15
+	ca -- ta, pec --
+	ca -- ta, pec --
+	ca -- ta mun --
+	di: Mi -- se -- re -- re, mi -- se --
+	re -- re no -- %20
+	bis, mi -- se --
+	re -- re no --
+	bis, mi -- se -- re -- re
+	no -- bis. %24 FINIS
+}

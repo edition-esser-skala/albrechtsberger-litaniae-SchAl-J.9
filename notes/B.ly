@@ -353,13 +353,60 @@ SalusBassoLyrics = \lyricmode {
 	bis. %90 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassoLyrics = \lyricmode {
-%
-% }
+AgnusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoAgnus
+		\mvTr c4.\fE^\tuttiE c8 e4 e8 e
+		f4 f8 f h,!4 h8 h
+		c4 c'8 c as4 fis
+		g g, r2
+		h4. h8 c4 c %5
+		a!4. a8 b4 b
+		b4. b8 es4 r
+		r2 es4. es8
+		des4 des8 des c4 c8 c
+		a!4 a b b %10
+		r d es es
+		cis2 d4 es8 es
+		d4. d8 g,4 r
+		r2 g'4. g8
+		f!4 f8 f e4 e8 e %15
+		a4 a, r d
+		g g, r h
+		c h a2
+		g r
+		f'8 e d c h([ c] g'4) %20
+		a r fis4. fis8
+		g4 c, g'2
+		c,4 e8 e f4 e
+		f2 c\fermata \bar "|." %24 FINIS
+	}
+}
+
+AgnusBassoLyrics = \lyricmode {
+	A -- gnus De -- i, qui
+	tol -- lis, qui tol -- lis pec --
+	ca -- ta, pec -- ca -- ta
+	mun -- di:
+	Par -- ce no -- bis, %5
+	par -- ce no -- bis,
+	Do -- mi -- ne.
+	A -- gnus
+	De -- i, qui tol -- lis pec --
+	ca -- ta mun -- di: %10
+	Ex -- au -- di,
+	ex -- au -- di nos,
+	Do -- mi -- ne.
+	A -- gnus
+	De -- i, qui tol -- lis pec -- %15
+	ca -- ta, pec --
+	ca -- ta, pec --
+	ca -- ta mun --
+	di:
+	Mi -- se -- re -- re no -- %20
+	bis, mi -- se --
+	re -- re no --
+	bis, mi -- se -- re -- re
+	no -- bis. %24 FINIS
+}
