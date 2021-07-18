@@ -2,7 +2,7 @@
 % This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
-\version "2.18.0"
+\version "2.22.0"
 
 SopranoIncipit = \markup {
 	"Soprano" \hspace #-19 \score {
@@ -34,7 +34,7 @@ KyrieSopranoNotes = {
 		b8. b16 b8 h c4 r8 cis
 		d4. f8 es4.( d16[ c]
 		d4.)\trill d8 c4 r %15
-		R1\fermataMarkup \bar "||" %16 finis
+		R1\fermata \bar "||" %16 finis
 	}
 }
 
@@ -138,7 +138,7 @@ PaterSopranoNotes = {
 		e( d4 c h8) %125
 		c4 r r
 		R2.
-		R\fermataMarkup \bar "||" %128 finis
+		R\fermata \bar "||" %128 finis
 	}
 }
 

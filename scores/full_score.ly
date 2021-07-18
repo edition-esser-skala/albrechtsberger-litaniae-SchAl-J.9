@@ -2,14 +2,18 @@
 % This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
-\version "2.18.0"
+\version "2.22.0"
 
 \include "../definitions.ly"
 
 \paper {
-	#(set-paper-size "a4" 'landscape)
-	indent = 1\cm
-	#(define (page-post-process layout pages) (ly:create-toc-file layout pages))
+  #(set-paper-size "a4landscape")
+  top-margin = 1\cm
+  bottom-margin = .5\cm
+  outer-margin = 2\cm
+  inner-margin = 1.5\cm
+  indent = 1\cm
+  #(define (page-post-process layout pages) (ly:create-toc-file layout pages))
 }
 
 #(set-global-staff-size 15.87)
@@ -27,7 +31,7 @@
 				\new StaffGroup <<
 					\set StaffGroup.instrumentName = \markup \center-column { "Clarino I, II" "in C" }
 					\new Staff <<
-						\partcombine \KyrieClarinoI \KyrieClarinoII
+						\partCombine \KyrieClarinoI \KyrieClarinoII
 					>>
 				>>
 				\new Staff {
@@ -102,7 +106,7 @@
 				\new StaffGroup <<
 					\set StaffGroup.instrumentName = \markup \center-column { "clno" "1, 2" }
 					\new Staff <<
-						\partcombine \PaterClarinoI \PaterClarinoII
+						\partCombine \PaterClarinoI \PaterClarinoII
 					>>
 				>>
 				\new Staff {
@@ -207,7 +211,7 @@
 				\new StaffGroup <<
 					\set StaffGroup.instrumentName = \markup \center-column { "clno" "1, 2" }
 					\new Staff <<
-						\partcombine \SalusClarinoI \SalusClarinoII
+						\partCombine \SalusClarinoI \SalusClarinoII
 					>>
 				>>
 				\new Staff {
@@ -276,7 +280,7 @@
 				\new StaffGroup <<
 					\set StaffGroup.instrumentName = \markup \center-column { "clno" "1, 2" }
 					\new Staff <<
-						\partcombine \AgnusClarinoI \AgnusClarinoII
+						\partCombine \AgnusClarinoI \AgnusClarinoII
 					>>
 				>>
 				\new Staff {

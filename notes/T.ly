@@ -2,7 +2,7 @@
 % This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
-\version "2.18.0"
+\version "2.22.0"
 
 TenoreIncipit = \markup {
 	"Tenore" \hspace #-18.2 \score {
@@ -34,7 +34,7 @@ KyrieTenoreNotes = {
 		g8. g16 g4 r8 b a4
 		r8 c h d d[ g,] c4~
 		c8[ h16 a] h8.\trill h16 c4 r %15
-		R1\fermataMarkup \bar "||" %16 finis
+		R1\fermata \bar "||" %16 finis
 	}
 }
 
@@ -104,7 +104,7 @@ PaterTenoreNotes = {
 		c( h4 a g8) %125
 		g4 r r
 		R2.
-		R\fermataMarkup \bar "||" %128 finis
+		R\fermata \bar "||" %128 finis
 	}
 }
 

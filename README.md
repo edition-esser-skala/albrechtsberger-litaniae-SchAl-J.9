@@ -1,8 +1,8 @@
 # Johann Georg Albrechtsberger: Litaniae lauretanae SchAl J.9
 
-Engraving files for LilyPond 2.18.0
+Engraving files for LilyPond 2.22.0
 
-First version, September 2020
+Version 1.1, July 2021
 
 
 ## Requirements

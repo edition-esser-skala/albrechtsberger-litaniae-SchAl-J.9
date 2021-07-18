@@ -2,7 +2,7 @@
 % This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
-\version "2.18.0"
+\version "2.22.0"
 
 AltoIncipit = \markup {
 	"Alto" \hspace #-16.8 \score {
@@ -34,7 +34,7 @@ KyrieAltoNotes = {
 		es8. es16 es4 r8 g f4
 		r8 a g g g2~
 		g4. g8 g4 r %15
-		R1\fermataMarkup \bar "||" %16 finis
+		R1\fermata \bar "||" %16 finis
 	}
 }
 
@@ -104,7 +104,7 @@ PaterAltoNotes = {
 		f4( e d) %125
 		e r r
 		R2.
-		R\fermataMarkup \bar "||" %128 finis
+		R\fermata \bar "||" %128 finis
 	}
 }
 
@@ -186,7 +186,7 @@ RosaAltoNotes = {
 		a([ g f e)] f8 \tuplet 3/2 8 { d'16([ c b)] } a4( g)\trill
 		f r r2
 		R1*3 %42
-		R1\fermataMarkup \bar "||" %43 finis
+		R1\fermata \bar "||" %43 finis
 	}
 }
 

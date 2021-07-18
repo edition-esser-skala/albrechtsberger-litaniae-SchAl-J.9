@@ -2,7 +2,7 @@
 % This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
-\version "2.18.0"
+\version "2.22.0"
 
 KyrieBassoNotes = {
 	\relative c {
@@ -23,7 +23,7 @@ KyrieBassoNotes = {
 		es8. es16 es4 r8 e f4
 		r8 fis g g g2~
 		g4 g, c r %15
-		R1\fermataMarkup \bar "||" %16 finis
+		R1\fermata \bar "||" %16 finis
 	}
 }
 
@@ -124,7 +124,7 @@ PaterBassoNotes = {
 		a([ h c e f g)] %125
 		c,4 r r
 		R2.
-		R\fermataMarkup \bar "||"
+		R\fermata \bar "||"
 	}
 }
 
