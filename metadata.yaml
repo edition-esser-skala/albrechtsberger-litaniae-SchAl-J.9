@@ -4,14 +4,13 @@ id: SchAl J.9
 genre: litany
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, [vla], b, org
 sources:
-  1:
+  B1:
     siglum: A-Ed
     shelfmark: G 124
-    type: manuscript copy
-    date: unknown
     rism: 600038352
     url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/301.html
-github: albrechtsberger-litaniae-SchAl-J.9
+    principal: true
 imslp: Litaniae_lauretanae%2C_SchAl_J.9_(Albrechtsberger%2C_Johann_Georg)
-notes:
-
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
+  vl1: Violino I [Viola solo]
