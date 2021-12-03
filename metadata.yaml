@@ -1,14 +1,18 @@
-composer: Albrechtsberger, Johann Georg
-title: Litaniae lauretanae
+composer:
+  last: Albrechtsberger
+  first: Johann Georg
+title: Litaniæ lauretanæ
 id: SchAl J.9
 genre: litany
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, [vla], b, org
+license: cc-by-sa-4.0
 sources:
   B1:
     siglum: A-Ed
     shelfmark: G 124
     rism: 600038352
     url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/301.html
+    license: public domain
     principal: true
 imslp: Litaniae_lauretanae%2C_SchAl_J.9_(Albrechtsberger%2C_Johann_Georg)
 parts:
